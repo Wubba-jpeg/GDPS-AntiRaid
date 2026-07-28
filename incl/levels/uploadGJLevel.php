@@ -74,7 +74,7 @@ $ts = !empty($_POST["ts"]) ? ExploitPatch::number($_POST["ts"]) : 0;
 if(isset($_POST["password"])) $password = $_POST["password"] != 0 ? ExploitPatch::remove($_POST["password"]) : 1;
 else $password = $gameVersion > 21 ? 1 : 0;
 $id = $gs->getIDFromPost();
-if ($usesaccounts === 1) {
+if ($usesaccounts === 0) {
 if (stripos($id, 's-') === 0) exit("-1");
 if (strpos($id, 'ffffffff-') !== 0 && strpos($id, '00000000-') !== 0) exit("-1");
 }
