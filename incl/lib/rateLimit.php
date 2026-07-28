@@ -1,5 +1,6 @@
 <?php
-require "../lib/connection.php";
+chdir(dirname(__FILE__));
+require "connection.php";
 require "../../config/raidfix.php";
 require "../../config/webhooks/DiscordWebhook.php";
 //class
