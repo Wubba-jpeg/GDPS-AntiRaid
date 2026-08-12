@@ -1,8 +1,13 @@
-# GDPS antiraid
+# GDPS antiraid+ (pro max ultra plus titanium)
 ### Anti-raid for pre 1.9 & 2.0+ GDPSs
 ### currently only supports [MegaSa1nt's GMDprivateServer fork](https://github.com/MegaSa1nt/GMDprivateServer).
 > [!IMPORTANT]  
 > I highly recommend you activate hcaptcha and turn off the preactivation of accounts (E-mail verification)
+
+## What's Added In This Fork?
+- Added customization for webhook messages
+- Added customization for webhook ping message
+- Cleaner configuration (raidfix.php)
 
 ## This Modification:
 - Adds rate limits (configurable)
