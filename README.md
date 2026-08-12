@@ -4,6 +4,10 @@
 > [!IMPORTANT]  
 > I highly recommend you activate hcaptcha and turn off the preactivation of accounts (E-mail verification)
 
+## What's Added In This Fork?
+- Added customization for webhook messages
+- Added customization for webhook ping message
+
 ## This Modification:
 - Adds rate limits (configurable)
 - Blocks invalid UDIDs
